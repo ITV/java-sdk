@@ -23,7 +23,7 @@ import org.apache.commons.codec.binary.Base64;
 /* 
  * 
  * Created by LoginRadius Development Team on 16/11/2017
-   Copyright � 2017 LoginRadius Inc. All rights reserved.  
+   Copyright  2017 LoginRadius Inc. All rights reserved.
    
  */
 
