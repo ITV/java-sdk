@@ -15,7 +15,7 @@ import java.util.Map;
  *
  */
 public class Endpoint {
-	private static final String LOGINRADIUS_API_ROOT = "https://api.loginradius.com";
+	private static final String LOGINRADIUS_API_ROOT = "https://itv-api.loginradius.com";
 	private static final String LOGINRADIUS_CONFIGURATION= "https://config.lrcontent.com/ciam/appinfo";
 	private static final String API_V2_LOGIN = "/identity/v2/auth/login";
 	private static final String API_REGISTER = "/identity/v2/auth/register";
