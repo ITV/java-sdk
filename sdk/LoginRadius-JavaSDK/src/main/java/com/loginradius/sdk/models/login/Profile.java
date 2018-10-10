@@ -6,6 +6,7 @@ package com.loginradius.sdk.models.login;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.loginradius.sdk.models.userprofile.LoginRadiusPrivacyPolicy;
 import com.loginradius.sdk.models.userprofile.UnverifiedEmail;
 import com.loginradius.sdk.models.userprofile.identity.Identity;
 
@@ -385,9 +386,10 @@ public class Profile {
     private String lastLoginDate;
 
     @SerializedName("UnverifiedEmail")
-
 	private List<UnverifiedEmail> unverifiedEmail = null;
 
+    @SerializedName("PrivacyPolicy")
+    private LoginRadiusPrivacyPolicy privacyPolicy;
     /**
      *
      * @return
@@ -2607,6 +2609,11 @@ public class Profile {
 	this.unverifiedEmail = unverifiedEmail;
 	}
 
-	 
+	public LoginRadiusPrivacyPolicy getPrivacyPolicy() {
+        return privacyPolicy;
+    }
 
+    public void setPrivacyPolicy(LoginRadiusPrivacyPolicy privacyPolicy) {
+        this.privacyPolicy = privacyPolicy;
+    }
 }

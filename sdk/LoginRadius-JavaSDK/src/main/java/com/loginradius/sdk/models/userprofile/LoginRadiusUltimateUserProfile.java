@@ -114,6 +114,8 @@ public class LoginRadiusUltimateUserProfile {
 	public String MainAddress;
 	@SerializedName("Created")
 	public String Created;
+	@SerializedName("CreatedDate")
+	public String CreatedDate;
 	@SerializedName("LocalCity")
 	public String LocalCity;
 

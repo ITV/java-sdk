@@ -32,7 +32,7 @@ name := "lradius-java-sdk" // TODO provide a short yet descriptive name
 
 organization := "com.itv"
 
-version := "4.1.1"
+version := "4.1.2"
 
 publishMavenStyle := true
 
